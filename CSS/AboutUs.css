@@ -1,0 +1,287 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+/* This will make the page decrease in size when the browser decreases in size*/
+.wrapper {
+  width:100%;
+  position:relative;
+}
+
+/* Background Image*/
+#BackgroundImage{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  grid-column: 1;
+  grid-row: 1;
+  opacity: 0.8;
+  z-index: 0;
+  position: fixed;
+}
+
+a {
+  font-family: 'Teko', sans-serif;
+  color: #4db1bc;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+  justify-self: center;
+  padding-bottom: 1rem;
+}
+
+/* ----------------------------------------------------section 1-------------------------------------------------------*/
+
+#Intro {
+  font-size: 100px;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #4db1bc;
+  top: 50px;
+  position: relative;
+  text-align:center;
+}
+
+.Intro-mover {
+  width: 100px;
+  height: 224px;
+  width: 720px;
+  position: relative;
+  top: 200px;
+  bottom: 200px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1{
+  width: 100%;
+  height: 600px;
+}
+
+/*----------------------------------------------------- Light mode -------------------------------------------------*/
+#Lightmode{
+  position: fixed;
+  right: 20px;;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: 5px;
+  padding: 10px;
+  z-index: 100;
+}
+
+body.light-mode #Intro {
+  color: blue;
+  text-decoration-color: green;
+}
+
+body.light-mode #Me-info{
+  color: blue; 
+  text-decoration-color: green; 
+}
+
+body.light-mode #bye-info {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+body.light-mode #Text {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+body.light-mode marquee {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+/*----------------------- Changing brightness of images -------------------------*/
+body.light-mode #Me-img {
+  filter: brightness(1.20);
+}
+
+body.light-mode #BackgroundImage {
+  filter: brightness(1.20);
+}
+
+body.light-mode #Waving-img {
+  filter: brightness(1.20);
+}
+
+body.light-mode #bye-img {
+  filter: brightness(1.20);
+}
+
+/* ----------------------------------------------------section 2-------------------------------------------------------*/
+
+
+.Me-mover {
+  width: 1200px;
+  position: relative;
+  top: 100px;
+  bottom: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: 100px;
+  height: auto;
+}
+
+.section-2{
+  width: 100%;
+  height: 900px;
+}
+
+/* css for writing beside images */
+#Me-img {
+  z-index: 10;
+  border: 5px solid white;
+  float: left;
+  margin-left: 150px;
+}
+
+#Me-info {
+  z-index: 10;
+  width: 200px;
+  float: left;
+  text-align: left;
+  margin-top: 0px;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 80px; 
+  color: #9d4dbc; 
+  text-decoration: underline; 
+  text-decoration-color: #4db1bc; 
+  left: 650px
+}
+
+#Text {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 10;
+  font-size: 30px;
+  width: 700px;
+  color: #4db1bc;
+  border: 5px solid white;
+  background-color: #212121;
+  padding: 5px;
+  left: 630px;
+  float: left;
+  margin-top: -400px;
+  position: relative;
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* ----------------------------------------------------section 3-------------------------------------------------------*/
+
+.bye-mover {
+  width: 1200px;
+  position: relative;
+  top: 100px;
+  bottom: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: 100px;
+  height: auto;
+}
+
+.section-3{
+  width: 100%;
+  height: 1000px;
+}
+
+#bye-img {
+  z-index: 10;
+  border: 5px solid white;
+  float: left;
+  margin-left: 150px;
+}
+
+#bye-info {
+  z-index: 10;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 10;
+  font-size: 30px;
+  color: #4db1bc;
+  border: 5px solid white;
+  background-color: #212121;
+  padding: 5px;
+  float: left;
+  position: relative;
+  text-align: left;
+  left: 650px;
+  margin-top: -500px;
+}
+
+#bye-info {
+  z-index: 10;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 10;
+  font-size: 30px;
+  color: #4db1bc;
+  border: 5px solid white;
+  background-color: #212121;
+  padding: 5px;
+  float: left;
+  position: relative;
+  text-align: left;
+  left: 650px;
+  margin-top: -500px;
+}
+
+marquee {
+  z-index: 10;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 10;
+  font-size: 30px;
+  color: #4db1bc;
+  border: 5px solid white;
+  background-color: #212121;
+  padding: 5px;
+  float: left;
+  position: relative;
+  text-align: left;
+  left: 650px;
+  margin-top: -300px;
+  height: 50px;
+}
+
+#Waving-img {
+  z-index: 10;
+  float: left;
+  margin-left: 700px;
+  margin-top: -200px;
+  width: 218px;
+  height: 360px;
+}
+
+/* ----------------------------------------------------Media Query-------------------------------------------------------*/
+
+@media screen and (max-width: 1600px) {
+  #Me-info{
+    font-size: 60px;
+  }
+  #Text{
+    font-size: 25px;
+    width: 600px;
+    margin-top: -450px;
+  }
+  marquee {
+    font-size: 25px;
+  }
+  #bye-info{
+    font-size: 25px;
+  }
+}

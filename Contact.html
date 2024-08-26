@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newcastle Northern Ireland</title>
+    <link rel="stylesheet" href="CSS/Contact.css">
+    <link rel="stylesheet" href="CSS/FooterHeader.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko:700&display=swap">
+
+  </head>
+  <body>
+    <script src="JS/LightMode.js"></script>
+    <script src="JS/script.js"></script>
+    <button id="Lightmode" onclick="light()">Toggle light mode</button>
+    <!--Nav Bar-->
+      <nav>
+        <div id="logo">
+          <img src="Photos\Logo1.jpg" style="position:fixed; left:0px; top:0px; width:140px; height:135px; border: 5px solid #000; opacity: 1; z-index: 10;" alt="Logo">
+        </div>
+        <ul>
+          <li><a href="Homepage.html">Home</a></li>
+          <li><a href="Mountains.html"> The Mourne Mountains</a>
+            <ul>
+              <li><a href="SlieveDonard.html">Slieve Donard</a></li>
+              <li><a href="SlieveCommedagh.html">Slieve Commedagh</a></li>
+              <li><a href="SlieveBinian.html">Slieve Binian</a></li>
+              <li><a href="SlieveBearnagh.html">Slieve Bearnagh</a></li>
+              <li><a href="SlieveDoan.html">Slieve Doan</a></li>
+              <li><a href="SlieveMeelmore.html">Slieve Meelmore</a></li>
+            </ul> 
+          </li>
+          <li><a href="AboutUs.html">About Us</a></li>
+          <li><a class="active" href="Contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <img id="BackgroundImage" src="https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Customer Service">
+
+
+      <div class="sidebar">
+        <a href="AboutUs.html">About Us</a>
+        <a href="Homepage.html">Home</a>
+        <a href="Contact.html">Contact Us</a>
+        <p id="Sidetxt">Address:<br>
+        21 Belfast Road,<br>
+        Belfast,<br>
+        Co.Down,<br>
+        BT57 7YZ
+        </p>
+      </div>
+      
+      <h1>Get in touch</h1>
+
+      <!--Intro-->
+      <section class="section-1">
+        <div class="Form-mover">
+          <p id="Text">Hello, and welcome. I hope you have enjoyed your time on our website. Please get in contact if you would like, we 
+            would love to hear from you. Please use the form below or contact us by phone or email.<br>
+            Phone Number: 0774547399372 <br>
+            Email: Random.person@yahoo.com
+          </p>
+        
+
+          <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+            <fieldset>
+             <legend style="font-size: 30px;">Contact form</legend><br>
+             <label for="fname">First name:</label>
+             <input type="text" id="fname" name="fname" minlength="1"><br><br>
+             <label for="lname">Last name:</label>
+             <input type="text" id="lname" name="lname" minlength="1"><br><br>
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" minlength="6"><br><br>
+             <label for="PhoneNumber">Phone Number:</label>
+             <input type="tel" id="PhoneNumber" name="PhoneNumber" minlength="6"><br><br>
+    
+             <label for="ContactUs">What would you like to contact us about:</label>
+             <select name="ContactUs" id="ContactUs">
+                <option value="None selected">None Selected</option>
+               <option value="More information">More information</option>
+               <option value="Inaccurate information">Inaccurate information</option>
+               <option value="Compliments">Compliments</option>
+               <option value="Other">Other</option>
+             </select>
+             <br><br>
+
+    
+            <p>What do you think of this Website:</p>
+            <input type="radio" id="Good" name="Location" value="Good">
+            <label for="Good">Good</label><br>
+            <input type="radio" id="Bad" name="Location" value="Bad">
+            <label for="Bad">Bad</label><br><br>
+    
+            <p>On a scale of 1-5, how good or bad do you think the website is(depending on previous answer):</p>
+                <input type="checkbox" id="T1" name="T1" value="1">
+                <label for="T1"> 1 - Okay</label><br>
+                <input type="checkbox" id="T2" name="T2" value="2">
+                <label for="T2"> 2 - Good/Bad</label><br>
+                <input type="checkbox" id="T3" name="T3" value="3">
+                <label for="T3"> 3 - Really Good/Really Bad</label><br>
+                <input type="checkbox" id="T4" name="T4" value="4">
+                <label for="T4"> 4 - Amazing/Awful</label><br>
+                <input type="checkbox" id="T5" name="T5" value="5">
+                <label for="T5"> 5 - Is this Elon Musk/ Delete the website it looks so bad</label><br><br>
+                
+                <p>Please enter below what you would like to say:</p>
+                <textarea id="review" name="review" rows="4" cols="50">...</textarea>
+    
+            <br><br>
+            <input type="submit" value="Submit"><br><br>
+            <p>If you click the "Submit" button, the form-data will be sent to the Creater of the website's email.</p>
+            <br>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+       
+      <footer><ul>
+        <li><a href="https://www.facebook.com/"><img class="FB" src="Photos\Facebook.png" alt="Newcastle">
+        </a></li>
+        <li><a href="https://www.instagram.com/"><img class="Instagram" src="Photos\Instagram.png" alt="Newcastle">
+        </a></li>
+        <li><a href="https://twitter.com/?lang=en-gb"><img class="Twitter" src="Photos\Twitter.png" alt="Newcastle">
+        </a></li>
+        </ul></footer>
+      
+        <img class="Copyright" src="Photos\Copyright.png" alt="Copyrighted by Ben Malcomson">
+        
+  </body>
+</html>

@@ -1,0 +1,235 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+/* This will make the page decrease in size when the browser decreases in size*/
+.wrapper {
+    width:100%;
+}
+
+/* css for writing beside images*/
+.img-info {
+    top: 800px;
+    z-index: 10;
+    margin-left: 0;
+    position: relative;
+    width: 400px;
+    padding: 5px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 80px; 
+    color: #9d4dbc; 
+    text-decoration: underline; 
+    text-decoration-color: #4db1bc;
+}
+
+.A1img {
+    z-index: 0;
+    top: 650px;
+    border: 5px solid white;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .row {
+    display: flex;
+    padding-bottom: 40px;
+  }
+  
+  /* This will create the text and image in two columns beside eachother */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+
+
+
+body {
+    background-color: #212121;
+    color: #4db1bc;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+    }
+
+
+
+/* Background Image*/
+#BackgroundImage{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0.8;
+    z-index: 0;
+    position: fixed;
+}
+
+/* ------------------------------------------Newcastle in blue font----------------------------------------*/
+h1 {
+    margin-top: -80px;
+    padding-bottom: 0rem;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    font-family: 'Teko', sans-serif;
+    font-size: 288px;
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite alternate;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+  /* This is the link for the nav bar css */
+  a {
+    font-family: 'Teko', sans-serif;
+    color: #4db1bc;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+    justify-self: center;
+    padding-bottom: 1rem;
+  }
+  /* This is the glow for the Newcastle text*/
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px #2d9da9;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+  }
+/*------------------------------------------------------------------------------------------------------------*/
+
+  #Intro {
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0px;
+    z-index: 10;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    width: 570px;
+    color: #4db1bc;
+    border: 5px solid white;
+    background-color: #212121;
+    padding: 5px;
+  }
+
+  #Home{
+    font-family: Arial, Helvetica, sans-serif;
+    top: 500px;
+    z-index: 0;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    width: 850px;
+    color: #4db1bc;
+    border: 5px solid white;
+    background-color: #212121;
+    padding: 5px;
+  }
+
+/*blinking text*/
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: #4db1bc;
+    border: 5px solid white;
+    background-color: #212121;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    top: 10px;
+    z-index: 12;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    }
+
+.blink-two {
+    animation: blinker-two 3s linear infinite;
+    }
+    @keyframes blinker-two {  
+    100% { opacity: 0; }
+    }
+/* Blinker css code ends here */
+
+/*----------------------------------------------------- Light mode -------------------------------------------------*/
+#Lightmode{
+  position: fixed;
+  right: 20px;;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: 5px;
+  padding: 10px;
+  z-index: 100;
+}
+
+body.light-mode #Intro {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+
+body.light-mode #Home {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+body.light-mode .img-info{
+  color: white; 
+  text-decoration-color:green; 
+}
+
+body.light-mode .blink {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+body.light-mode .blink-two {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+
+body.light-mode #A1img {
+  filter: brightness(1.20);
+}
+
+body.light-mode h1 {
+  color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+body.light-mode #BackgroundImage {
+  filter: brightness(1.20);
+}
+
+/* ------------------------------------ Media Query ----------------------------------------*/
+/*Makes Newcastle font smaller*/
+
+@media screen and (max-width: 1650px) {
+  h1{
+    font-size: 210px;
+  }
+}

@@ -1,0 +1,505 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+/* This will make the page decrease in size when the browser decreases in size*/
+.wrapper {
+  width:100%;
+  position:relative;
+}
+
+/* Background Image*/
+#BackgroundImage{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  grid-column: 1;
+  grid-row: 1;
+  opacity: 0.8;
+  z-index: 0;
+  position: fixed;
+}
+
+/* ----------------------------------------------------section 1-------------------------------------------------------*/
+
+#Intro {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 10;
+  font-size: 30px;
+  width: 700px;
+  color: #4db1bc;
+  border: 5px solid white;
+  background-color: #212121;
+  padding: 5px;
+}
+
+.Intro-mover {
+  width: 100px;
+  height: 224px;
+  background-color: blue;
+  width: 720px;
+  position: relative;
+  top: 200px;
+  bottom: 200px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1{
+  width: 100%;
+  height: 600px;
+}
+
+/* ----------------------------------------------------section 2-------------------------------------------------------*/
+
+
+.Donard-mover {
+  width: 1200px;
+  position: relative;
+  top: 100px;
+  bottom: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: 200px;
+  height: auto;
+}
+
+.section-2{
+  width: 100%;
+  height: 500px;
+}
+
+/* css for writing beside images */
+#Donard-img {
+  z-index: 40;
+  border: 5px solid white;
+  float: left;
+}
+
+#Donard-info {
+  z-index: 40;
+  width: 200px;
+  float: left;
+  margin-top: 100px;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 80px; 
+  color: #9d4dbc; 
+  text-decoration: underline; 
+  text-decoration-color: #4db1bc; 
+  left: 650px
+}
+
+#DidYouKnow1 {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 10;
+  font-size: 30px;
+  position: relative;
+  color: #4db1bc;
+  border: 5px solid white;
+  background-color: #212121;
+  padding: 5px;
+  margin-left: 1050px;
+  overflow:auto;
+  height: 400px;
+  top: 100px;
+}
+
+/* ----------------------------------------------------section 3-------------------------------------------------------*/
+
+.Binian-mover {
+  width: 1200px;
+  position: relative;
+  top: 100px;
+  bottom: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: 200px;
+  height: auto;
+}
+
+.section-3{
+  width: 100%;
+  height: 500px;
+}
+
+/* css for writing beside images */
+#Binian-img {
+  z-index: 40;
+  border: 5px solid white;
+  float: left;
+}
+
+#Binian-info {
+  z-index: 40;
+  width: 200px;
+  float: left;
+  margin-top: 100px;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 80px; 
+  color: #9d4dbc; 
+  text-decoration: underline; 
+  text-decoration-color: #4db1bc; 
+}
+
+#Earth-img {
+  z-index: 0;
+  border: 5px solid #4db1bc;
+  position: relative;
+  margin-left: 1050px;
+  padding: 10px;
+}
+
+/* ----------------------------------------------------section 4-------------------------------------------------------*/
+
+.Bearnagh-mover {
+  width: 1200px;
+  position: relative;
+  top: 100px;
+  bottom: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: 200px;
+  height: auto;
+}
+
+.section-4{
+  width: 100%;
+  height: 500px;
+}
+
+/* css for writing beside images */
+#Bearnagh-img {
+  z-index: 40;
+  border: 5px solid white;
+  float: left;
+}
+
+#Bearnagh-info {
+  z-index: 40;
+  width: 200px;
+  float: left;
+  margin-top: 100px;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 80px; 
+  color: #9d4dbc; 
+  text-decoration: underline; 
+  text-decoration-color: #4db1bc; 
+}
+
+/* ----------------------------------------------------section 5-------------------------------------------------------*/
+
+.Commedagh-mover {
+  width: 1200px;
+  position: relative;
+  top: 100px;
+  bottom: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: 200px;
+  height: auto;
+}
+
+.section-5{
+  width: 100%;
+  height: 500px;
+}
+
+/* css for writing beside images */
+#Commedagh-img {
+  z-index: 40;
+  border: 5px solid white;
+  float: left;
+}
+
+#Commedagh-info {
+  z-index: 40;
+  width: 200px;
+  float: left;
+  margin-top: 100px;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 80px; 
+  color: #9d4dbc; 
+  text-decoration: underline; 
+  text-decoration-color: #4db1bc; 
+}
+
+#DidYouKnow2 {
+  font-family: Arial, Helvetica, sans-serif;
+  top: 350px;
+  z-index: 10;
+  font-size: 30px;
+  position: relative;
+  color: #4db1bc;
+  border: 5px solid white;
+  background-color: #212121;
+  padding: 5px;
+  margin-left: 1050px;
+  overflow:auto;
+  height: 400px;
+}
+
+
+/* ----------------------------------------------------section 6-------------------------------------------------------*/
+.Doan-mover {
+  width: 1200px;
+  position: relative;
+  top: 100px;
+  bottom: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: 200px;
+  height: auto;
+}
+
+.section-6{
+  width: 100%;
+  height: 500px;
+}
+
+/* css for writing beside images */
+#Doan-img {
+  z-index: 40;
+  border: 5px solid white;
+  float: left;
+}
+
+#Doan-info {
+  z-index: 40;
+  width: 200px;
+  float: left;
+  margin-top: 100px;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 80px; 
+  color: #9d4dbc; 
+  text-decoration: underline; 
+  text-decoration-color: #4db1bc; 
+}
+
+
+#Smugglers-img {
+  z-index: 0;
+  top: 200px;
+  border: 5px solid #4db1bc;;
+  position: relative;
+  margin-left: 1050px;
+}
+
+/* ----------------------------------------------------section 7-------------------------------------------------------*/
+.Meelmore-mover {
+  width: 1200px;
+  position: relative;
+  top: 100px;
+  bottom: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: 200px;
+  height: auto;
+}
+
+.section-7{
+  width: 100%;
+  height: 500px;
+}
+
+/* css for writing beside images */
+#Meelmore-img {
+  z-index: 40;
+  border: 5px solid white;
+  float: left;
+}
+
+#Meelmore-info {
+  z-index: 40;
+  width: 200px;
+  float: left;
+  margin-top: 100px;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 80px; 
+  color: #9d4dbc; 
+  text-decoration: underline; 
+  text-decoration-color: #4db1bc; 
+}
+
+/* ----------------------------------------------------section 8-------------------------------------------------------*/
+.Peaks-mover{
+  width: 1200px;
+  position: relative;
+  top: 20px;
+  bottom: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: 200px;
+  height: auto;
+}
+
+
+/* css for writing beside images */
+#Peaks-img {
+  z-index: 40;
+  border: 5px solid white;
+  float: left;
+  margin-top:80px;
+}
+
+#Peaks-info {
+  z-index: 40;
+  width: 350px;
+  float: left;
+  margin-top: 120px;
+  padding-left: 20px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  position: relative;
+  color: #4db1bc;
+  border: 5px solid white;
+  background-color: #212121;
+  padding: 5px;
+  overflow:auto;
+  margin-left: 20px;
+}
+
+.section-8{
+  width: 100%;
+  height: 700px;
+}
+
+
+
+/* ----------------------------------------------------Media Query-------------------------------------------------------*/
+/* removes right side stories/tabs */
+
+@media screen and (max-width: 1600px) {
+  #DidYouKnow1{
+    display: none;
+  }
+  #DidYouKnow2{
+    display: none;
+  }
+  #Earth-img{
+    display: none;
+  }
+  #Smugglers-img{
+    display: none;
+  }
+}
+
+
+/*----------------------------------------------------- Light mode -------------------------------------------------*/
+#Lightmode{
+  position: fixed;
+  right: 20px;;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: 5px;
+  padding: 10px;
+  z-index: 100;
+}
+
+body.light-mode #Intro {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+
+body.light-mode #DidYouKnow1 {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+
+body.light-mode #DidYouKnow2 {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+body.light-mode #Donard-info {
+  color: white; 
+  text-decoration-color:green; 
+}
+
+body.light-mode #Binian-info {
+  color: white; 
+  text-decoration-color:green; 
+}
+
+body.light-mode #Bearnagh-info {
+  color: white; 
+  text-decoration-color:green; 
+}
+
+body.light-mode #Commedagh-info {
+  color: white; 
+  text-decoration-color:green; 
+}
+
+body.light-mode #Meelmore-info {
+  color: white; 
+  text-decoration-color:green; 
+}
+
+body.light-mode #Doan-info {
+  color: white; 
+  text-decoration-color:green; 
+}
+
+body.light-mode #Peaks-info {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+/* Increasing Image Brightness */
+body.light-mode #Donard-img {
+  filter: brightness(1.20);
+}
+
+body.light-mode #Binian-img {
+  filter: brightness(1.20);
+}
+
+body.light-mode #Bearnagh-img {
+  filter: brightness(1.20);
+}
+
+body.light-mode #Commedagh-img{
+  filter: brightness(1.20);
+}
+
+body.light-mode #Meelmore-img{
+  filter: brightness(1.20);
+}
+
+body.light-mode #Doan-img{
+  filter: brightness(1.20);
+}
+
+body.light-mode #Peaks-img{
+  filter: brightness(1.10);
+}
+
+body.light-mode #Smugglers-img{
+  filter: brightness(1.15);
+}
+
+body.light-mode #Earth-img{
+  filter: brightness(1.05);
+}
+/* Light mode css ends here */

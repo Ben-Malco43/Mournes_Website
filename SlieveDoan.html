@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newcastle Northern Ireland</title>
+    <link rel="stylesheet" href="CSS/SubPages.css">
+    <link rel="stylesheet" href="CSS/FooterHeader.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko:700&display=swap">
+  </head>
+  <body>
+    <script src="JS/LightMode.js"></script>
+    <button id="Lightmode" onclick="light()">Toggle light mode</button>
+    <!--Nav Bar-->
+      <nav>
+        <div id="logo">
+          <img src="Photos\Logo1.jpg" style="position:fixed; left:0px; top:0px; width:140px; height:135px; border: 5px solid #000; opacity: 1; z-index: 10;" alt="Logo">
+        </div>
+        <ul>
+          <li><a href="Homepage.html">Home</a></li>
+          <li><a class="active" href="Mountains.html"> The Mourne Mountains</a>
+            <ul>
+              <li><a href="SlieveDonard.html">Slieve Donard</a></li>
+              <li><a href="SlieveCommedagh.html">Slieve Commedagh</a></li>
+              <li><a href="SlieveBinian.html">Slieve Binian</a></li>
+              <li><a href="SlieveBearnagh.html">Slieve Bearnagh</a></li>
+              <li><a class="active" href="SlieveDoan.html">Slieve Doan</a></li>
+              <li><a href="SlieveMeelmore.html">Slieve Meelmore</a></li>
+            </ul> 
+          </li>
+          <li><a href="AboutUs.html">About Us</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+
+      <img id="BackgroundImage" src="Photos\Doan\BackgroundIMG.jpg" alt="Background Image">
+  
+      <div class="sidebar">
+        <a href="AboutUs.html">About Us</a>
+        <a href="Homepage.html">Home</a>
+        <a href="Contact.html">Contact Us</a>
+        <p id="Sidetxt">Address:<br>
+        21 Belfast Road,<br>
+        Belfast,<br>
+        Co.Down,<br>
+        BT57 7YZ
+        </p>
+      </div>
+
+      <!--Intro-->
+      <section class="section-1">
+        <div class="Intro-mover"><p id="Intro">Slieve Doan</p></div>
+      </section>
+
+
+      <!--Mountain-->
+      <section class="section-2" style="height: 800px;">
+        <div class="Mountain-mover">
+          <button id="Pic1" style='position: absolute;' onclick="document.getElementById('Mountains-img').src='Photos/Doan/1.jpg'"> 1 </button>
+          <button id="Pic2" style='position: absolute;' onclick="document.getElementById('Mountains-img').src='Photos/Doan/2.jpg'"> 2 </button>
+          <button id="Pic3" style='position: absolute;' onclick="document.getElementById('Mountains-img').src='Photos/Doan/3.jpg'"> 3 </button>
+          <button id="Pic4" style='position: absolute;' onclick="document.getElementById('Mountains-img').src='Photos/Doan/4.jpg'"> 4 </button>
+          <img id="Mountains-img" alt="Mountain range photo gallery" src="Photos/Doan/1.jpg" style="height: 600px; width: 450px;">
+          <p id="Text" style="height: 450px;"><span style="color: red;">Slieve Doan</span> stands at 593 metres (1,946 ft) and is the 16th tallest peak. It is about a 2 hours hike and you can start 
+            from Ott car park on the slievenaman road. From there cross the road, and climb over the stile. Once you reach a stone path continue towards 
+            the saddle between the two mountains. Now keep LoughShannagh on your right and Slieve Doan should now be in your sights. This mountain is not part 
+            of the six peak challenge although it is one of my favourite mountains. The view is spectacular and the view of LoughShannagh is beautiful, this 
+            mountain I recommend everyone does atleast once in their lifetime.</p>
+        </div>
+      </section> 
+
+      <footer><ul>
+        <li><a href="https://www.facebook.com/"><img class="FB" src="Photos\Facebook.png" alt="Facebook">
+        </a></li>
+        <li><a href="https://www.instagram.com/"><img class="Instagram" src="Photos\Instagram.png" alt="Instagram">
+        </a></li>
+        <li><a href="https://twitter.com/?lang=en-gb"><img class="Twitter" src="Photos\Twitter.png" alt="Twitter">
+        </a></li>
+        </ul></footer>
+      
+        <img class="Copyright" src="Photos\Copyright.png" alt="Copyrighted by Ben Malcomson">
+        
+  </body>
+</html>

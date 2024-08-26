@@ -1,0 +1,222 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+/* This will make the page decrease in size when the browser decreases in size*/
+.wrapper {
+  width:100%;
+  position:relative;
+}
+
+/* Background Image*/
+#BackgroundImage{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  grid-column: 1;
+  grid-row: 1;
+  opacity: 0.8;
+  z-index: 0;
+  position: fixed;
+}
+/* ----------------------------------------------------section 1-------------------------------------------------------*/
+
+#Intro {
+  z-index: 10;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 120px; 
+  color: #9d4dbc; 
+  text-decoration: underline; 
+  text-decoration-color: #4db1bc; 
+  padding: 5px;
+}
+
+.Intro-mover {
+  width: 100px;
+  height: 224px;
+  width: 720px;
+  position: relative;
+  top: 200px;
+  bottom: 200px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1{
+  width: 100%;
+  height: 600px;
+}
+
+/* ----------------------------------------------------section 2-------------------------------------------------------*/
+
+
+.Mountain-mover {
+  width: 1200px;
+  position: relative;
+  top: 100px;
+  bottom: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.section-2{
+  width: 100%;
+  height: 600px;
+}
+
+/* css for writing beside images */
+#Mountains-img {
+  z-index: 10;
+  border: 5px solid white;
+  float: left;
+  margin-left: 150px;
+}
+
+#Text {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 10;
+  font-size: 30px;
+  width: 400px;
+  color: #4db1bc;
+  border: 5px solid white;
+  background-color: #212121;
+  padding: 5px;
+  position: relative;
+  text-align: left;
+  padding-left: 10px;
+  overflow:auto;
+  height: 300px;
+  left: 50px;
+  top: 50px;
+}
+
+
+/*----------------------------------------------------- Light mode -------------------------------------------------*/
+#Lightmode{
+  position: fixed;
+  right: 20px;;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: 5px;
+  padding: 10px;
+  z-index: 100;
+}
+
+body.light-mode #Intro {
+  color: blue; 
+}
+
+body.light-mode #Text {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+}
+
+/* Increasing Image Brightness */
+body.light-mode #Mountains-img {
+  filter: brightness(1.15);
+}
+
+body.light-mode #BackgroundImage {
+  filter: brightness(1.20);
+}
+
+/*----------------------------------------------------- Camera roll button -------------------------------------------------*/
+#Pic1{
+  left: 200px;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: 5px;
+  padding: 10px;
+  z-index: 15;
+}
+
+#Pic2{
+  left: 300px;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: 5px;
+  padding: 10px;
+  z-index: 15;
+}
+
+#Pic3{
+  left: 400px;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: 5px;
+  padding: 10px;
+  z-index: 15;
+}
+
+#Pic4{
+  left: 500px;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: 5px;
+  padding: 10px;
+  z-index: 15;
+}
+
+#Pic5{
+  left: 600px;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: 5px;
+  padding: 10px;
+  z-index: 15;
+}
+
+/* ----------------------------------------------------section 3-------------------------------------------------------*/
+
+.Video-mover {
+  width: 1200px;
+  position: relative;
+  bottom: 100px;
+  text-align: center;
+  align-items: center;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  top: 0px;
+}
+
+.section-3{
+  width: 100%;
+  height: 600px;
+}
+
+/* css for writing beside images */
+#Video {
+  z-index: 40;
+}
+
+/* ----------------------------------------------------Media Query-------------------------------------------------------*/
+
+@media screen and (max-width: 1600px) {
+  #Intro{
+    font-size: 90px;
+  }
+  #Text{
+    font-size: 25px;
+  }
+}

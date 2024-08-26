@@ -1,0 +1,225 @@
+
+  footer{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    color: white;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    padding: 0px;
+  }
+  footer li {
+    display: inline;
+  }
+
+  footer ul li ul{
+    display: none;
+    position: absolute;
+    background-color:black;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    z-index: 1000;
+  }
+
+  footer ul{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    position: relative;
+    padding: 0px 0px 0px 40px;
+    margin-top: 5px;
+  }
+
+  footer ul li{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    list-style: none;
+    position: relative;
+  }
+
+  footer ul li a {
+    font-family: arial;
+    color: white;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    background-color: black;
+    z-index: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 10px;
+  }
+/* ---------------------------------------------------------------------------------------------------*/
+
+/* This is hovering over a tab */
+nav a:hover {
+  background-color: #00c0db;
+  color: black;
+}
+
+/* This shows what your active tab is (highlighted in green)*/
+nav a.active {
+  background-color: #00d684;
+  color: white;
+}
+
+/* This is the nav bar with tabs */
+nav{
+  width: 100%;
+  height: 59px;
+  background-color:black;
+  z-index: 1000;
+  color: white;
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  left: 110px;
+  padding: 0px;
+}
+
+nav p{
+  float: left;
+  padding: 0px 45px 0px 0px;
+}
+
+nav ul{
+  float: left;
+  position: relative;
+  padding: 0px 0px 0px 40px;
+  margin-top: 20px;
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  font-family: arial;
+  color: white;
+  font-size:14px;
+  padding: 22px 14px;
+  text-decoration: none;
+  background-color: black;
+  z-index: 1000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* When not hovering over drop down, drop down doesnt show */
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color:black;
+  padding: 10px;
+  z-index: 1000;
+  border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+  display: block;
+  padding: 0px 0px 0px 0px;
+}
+
+nav ul li ul li {
+  width: 160px;
+  border-radius: 4px;
+  padding: 14px;
+}
+
+nav ul li ul li a {
+  padding: 8px 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li ul li a:hover {
+  background-color: #00c0db;
+  color: black;
+}
+
+
+/* Side bar*/
+.sidebar {
+  overflow-x: hidden;
+  height: 100%;
+  padding-top: 350px;
+  width: 140px;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  background-color: black;
+}
+
+.sidebar a {
+  font-size: 25px;
+  color: white;
+  padding: 10px 10px 5px 16px;
+  text-decoration: none;
+}
+
+/* when hovering over one of the side bar tabs it highlights*/
+.sidebar a:hover {
+  color: #00c0db;
+}
+
+
+/* Social*/
+.FB {
+  height: 40px;
+  width: 40px;
+}
+.Instagram {
+  height: 40px;
+  width: 40px;
+}
+.Twitter {
+  height: 40px;
+  width: 40px;
+}
+
+.FB:hover {
+  background-color: #00c0db;
+  padding: 2px;
+}
+
+.Instagram:hover {
+  background-color: #00c0db;
+  padding: 2px;
+}
+
+.Twitter:hover {
+  background-color: #00c0db;
+  padding: 2px;
+}
+
+.Copyright {
+  height: 40px;
+  width: auto;
+  position: fixed;
+  bottom:5px;
+  right: 10px;
+  z-index: 1000;
+}
+
+#Sidetxt {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 10;
+  font-size: 20px;
+  width: 140px;
+  color: #4db1bc;
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  font-family: 'Teko', sans-serif;
+  color: #4db1bc;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+  justify-self: center;
+  padding-bottom: 1rem;
+}
